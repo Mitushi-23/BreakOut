@@ -1,0 +1,15 @@
+#myCanvas{
+    background-color: aqua;
+    margin: 125px 0px 0px 485px;
+}
+
+.Game{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    color: darkblue;
+    font-size: 40px;
+    /* bottom: -14%; */
+    left: 45%;
+    top: 90%;
+}
