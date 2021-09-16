@@ -40,6 +40,7 @@ for (c = 0; c < brickColumnCount; c++) {
 
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
+document.addEventListener("mousemove", mouseMoveHandler, false);
 
 function collisionDetection() {
      for (c = 0; c < brickColumnCount; c++) {
@@ -104,7 +105,7 @@ function drawScore() {
  
 
 
- document.addEventListener("click",restart);
+ 
 
 function draw() {
 
@@ -167,6 +168,13 @@ function keyUpHandler(e) {
      }
 }
 
+function mouseMoveHandler(e){
+     var relativeX = e.clientX - canvas.offsetLeft;
+     if(relativeX> 0 && relativeX<canvas.width)
+     {
+          paddleX = relativeX - paddleWidth/2;
+     }
+}
 
 function playGame(){
     game = setInterval(draw,8);
