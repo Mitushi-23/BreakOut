@@ -1,8 +1,7 @@
-# Bouncing-Ball Game
+# [Bouncing-Ball Game](https://mitushi-23.github.io/Bouncing-Ball/)
+
 ## About the project
 I have made this game using Canvas and JavaScript.
-Here is the link to play the game
-https://mitushi-23.github.io/Bouncing-Ball/
 
 ## How to play?
 * This is a simple game which can be played on desktop.
