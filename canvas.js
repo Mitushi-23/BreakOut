@@ -177,7 +177,7 @@ function mouseMoveHandler(e){
 }
 
 function playGame(){
-    game = setInterval(draw,6);
+    game = setInterval(draw,2);
 }
 
 
