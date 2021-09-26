@@ -14,8 +14,8 @@ var brickRowCount = 5;
 var brickColumnCount = 8;
 var brickWidth = 100;
 var brickHeight = 28;
-var brickOffsetLeft = 32;
-var brickOffsetTop = 40;
+var brickOffsetLeft = 22;
+var brickOffsetTop = 60;
 var brickPadding = 16;
 var score =0;
 var highscore =0;
@@ -106,15 +106,15 @@ function drawBricks() {
 }
 
 function drawScore() {
-     ctx.font = "18px Arial";
+     ctx.font = "24px Arial";
      ctx.fillStyle = "brown";
-     ctx.fillText("score: " + score, 8, 20); //fillText(String,x,y)
+     ctx.fillText("Score: " + score, 8, 35); //fillText(String,x,y)
  }
  
  function drawHighScore() {
-     ctx.font = "18px Arial";
+     ctx.font = "24px Arial";
      ctx.fillStyle = "brown";
-     ctx.fillText("Highscore: " + highscore, 828, 20); //fillText(String,x,y)
+     ctx.fillText("Highscore: " + highscore, 780, 35); //fillText(String,x,y)
  }
 
  
