@@ -18,6 +18,9 @@ var brickOffsetLeft = 32;
 var brickOffsetTop = 40;
 var brickPadding = 16;
 var score =0;
+var highscore =0;
+highscore = localStorage.getItem('Highscore');
+
 let gameOver = new Audio();
 gameOver.src = "others/life_lost.mp3";
 const BRICK_HIT = new Audio();
@@ -62,6 +65,11 @@ function collisionDetection() {
                }
           }
      }
+     if(highscore < score)
+     {
+          highscore = score;
+     }
+     localStorage.setItem('Highscore', highscore);
 }
 
 function drawBall() {
@@ -103,7 +111,11 @@ function drawScore() {
      ctx.fillText("score: " + score, 8, 20); //fillText(String,x,y)
  }
  
-
+ function drawHighScore() {
+     ctx.font = "18px Arial";
+     ctx.fillStyle = "brown";
+     ctx.fillText("Highscore: " + highscore, 828, 20); //fillText(String,x,y)
+ }
 
  
 
@@ -115,6 +127,7 @@ function draw() {
      drawBall();
      drawPaddle();
      drawScore();
+     drawHighScore();
      collisionDetection();
    
 
