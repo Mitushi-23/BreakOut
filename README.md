@@ -11,10 +11,14 @@ I have made this game using Canvas and JavaScript.
 * If you break all the bricks then the message "Congractulation you won the game!!!" appears.
 
 ### Click on PLAY GAME to start the game
-![Screenshot_20210916_222234](https://user-images.githubusercontent.com/83106116/133654153-f7dc9b89-1811-400f-89c8-0f91ea5d27da.png)
+![Screenshot_20211004_171622](https://user-images.githubusercontent.com/83106116/135846038-db562ddb-7f6d-4d60-b200-d09923751315.png)
+
+
 
 ### If you loss the game
-![Screenshot_20210916_222407](https://user-images.githubusercontent.com/83106116/133654055-9eb5b82f-bd4c-4a15-8f6c-f68683159d1d.png)
+![image](https://user-images.githubusercontent.com/83106116/135846222-c81ebe64-3d2b-4651-95b4-80b69a5d5185.png)
+
 
 ### If you win the game  
-![Screenshot_20210916_222533](https://user-images.githubusercontent.com/83106116/133653746-9fda3857-3492-4d52-ad30-abb9af172d5b.png)
+![image](https://user-images.githubusercontent.com/83106116/135846717-d1157fe1-fcb9-40a1-ac8e-73e365589b02.png)
+
