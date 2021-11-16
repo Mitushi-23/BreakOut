@@ -27,7 +27,7 @@ const BRICK_HIT = new Audio();
 BRICK_HIT.src = "others/brick_hit.mp3";
 
 let winGame = new Audio();
-winGame.src="win.mp3";
+winGame.src="others/win.mp3";
 
 let paddleHit = new Audio();
 paddleHit.src="others/paddle_hit.mp3";
@@ -202,7 +202,9 @@ function setvalue(){
 }
 playgame.addEventListener("click",setvalue());
 function playGame(){
-    game = setInterval(draw,4);
+    game = setInterval(draw,4
+
+     );
 }
 
 
