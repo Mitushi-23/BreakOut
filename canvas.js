@@ -5,7 +5,7 @@ var x = canvas.width / 2;
 var y = canvas.height - 30;
 var dx = 2;
 var dy = -2;
-var paddleWidth = 100;
+var paddleWidth = 150;
 var paddleHeight = 20;
 var paddleX = (canvas.width - paddleWidth) / 2;
 var leftPressed = false;
@@ -202,9 +202,7 @@ function setvalue(){
 }
 playgame.addEventListener("click",setvalue());
 function playGame(){
-    game = setInterval(draw,4
-
-     );
+    game = setInterval(draw,6);
 }
 
 
