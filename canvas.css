@@ -4,9 +4,15 @@ body{
 
 #myCanvas{
     /* background-color: rgb(40, 43, 44); */
-    margin: 60px 0px 0px 485px;
+    /* margin: 60px 0px 0px 485px; */
+    align-items: center;
+    margin-top: auto;
 }
-
+.game{
+display: flex;
+justify-content: center;
+align-items: center;
+}
 .Game{
     position: absolute;
     text-align: center;
