@@ -1,4 +1,4 @@
-# [Bouncing-Ball Game](https://mitushi-23.github.io/Bouncing-Ball/)
+# [BreakOut Game](https://mitushi-23.github.io/Bouncing-Ball/)
 
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/83106116/135847960-ccdabfd1-d9ce-4513-9fba-18c84ea285ca.gif)
 
