@@ -14,6 +14,7 @@ I have made this game using Canvas and JavaScript.
 
 ### Click on PLAY GAME to start the game
 ![Screenshot_20211004_171622](https://user-images.githubusercontent.com/83106116/135846038-db562ddb-7f6d-4d60-b200-d09923751315.png)
+![image](https://user-images.githubusercontent.com/83106116/143680632-811e5f29-ac55-4d8d-a7d8-74050b6e1fe3.png)
 
 
 
